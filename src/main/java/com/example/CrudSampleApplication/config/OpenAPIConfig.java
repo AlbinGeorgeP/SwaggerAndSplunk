@@ -6,21 +6,22 @@ import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.info.License;
 import io.swagger.v3.oas.annotations.servers.Server;
 
+
 @OpenAPIDefinition(
         info = @Info(
                 contact = @Contact(
-                        name="Albin",
-                        email = "albin@gmail.com",
-                        url = "https://www.youtube.com/watch?v=2o_3hjUPAfQ"
+                        name="API Support",
+                        email = "support@example.com",
+                        url = "https://www.example.com/support"
                 ),
                 description = "OpenApi Doc for Spring Boot",
                 title = "OpenApi Spec - Albin",
                 version = "1.0",
                 license = @License(
-                    name = "License Name",
-                    url = "https://www.youtube.com/watch?v=2o_3hjUPAfQ"
+                        name = "Apache 2.0",
+                        url = "https://www.apache.org/licenses/LICENSE-2.0.html"
                 ),
-                termsOfService = "Terms of Service"
+                termsOfService = "https://example.com/terms/"
         ),
         servers ={
                 @Server(
